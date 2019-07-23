@@ -109,7 +109,10 @@ defaults:
     nom: ''
     img: ''
     website: ''
-
+- scope:
+    path: "assets"
+  values:
+    ontology: true
 # Build settings
 markdown: kramdown
 permalink: "/blog/:title"
